@@ -9,4 +9,6 @@ Pillow==11.2.1
 langchain[google-genai]
 langchain[openai]
 langchain[all]
+langchain-core
+langgraph>0.2.27
 
