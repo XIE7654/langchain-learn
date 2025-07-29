@@ -11,4 +11,7 @@ langchain[openai]
 langchain[all]
 langchain-core
 langgraph>0.2.27
-
+langchain-community
+pypdf
+langchain-chroma
+langchain-postgres

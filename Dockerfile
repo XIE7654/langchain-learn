@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
  && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt /tmp/requirements.txt
-RUN pip install --upgrade pip && pip install -r /tmp/requirements.txt
+RUN pip install --upgrade pip && pip install -r /tmp/requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 
 COPY config/jupyter_notebook_config.py /root/.jupyter/
 
